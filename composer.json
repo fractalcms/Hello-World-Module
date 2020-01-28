@@ -1,0 +1,21 @@
+{
+    "name": "fractalcms/module-hello-world",
+    "description": "Hello World Module",
+    "keywords": ["Hello", "World", "Module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benoît Grelier"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FractalCms\\Module\\HelloWorld\\": "src/"
+        }
+    }
+}
